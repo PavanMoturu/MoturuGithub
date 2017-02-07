@@ -20,9 +20,9 @@ public class CustomerResourceTest{
    public void testInsertCustomer() throws Exception{
       System.out.println("*** Create a new Customer ***");
 	  Customer cust = new Customer();
-	  cust.setCname("Ramesh");
-	  cust.setEmail("ramesh@java2aspire.com");
-	  cust.setMobile("7799108899");
+	  cust.setCname("Pavan");
+	  cust.setEmail("Pavan.moturu@gmail.com");
+	  cust.setMobile("4253050109");
 	  
 	  HttpHeaders headers = new HttpHeaders();
 	  headers.setContentType(MediaType.APPLICATION_XML);
